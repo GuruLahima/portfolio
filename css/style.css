@@ -2137,7 +2137,7 @@ img.img.img-circle.lt-box {
 /* hexagon stuff */
 .hexagon-menu {
   /* make this element a percent of the screen width */
-  width: 65%;
+  width: 50%;
   /* also center it in the parent element */
   margin: 0 auto;
   /* lower it a bit */
@@ -2183,11 +2183,22 @@ img.img.img-circle.lt-box {
 
 .hexagon-item:hover .hex-item div::before,
 .hexagon-item:hover .hex-item div::after {
-  background-color: #1FF5FF;
+  background-color: #9b31ff;
 }
 
 .hexagon-item:hover .hex-content svg {
   transform: scale(0.97);
+}
+
+.hexagon-item:hover .hex-content .icon {
+  visibility: visible;
+  height: auto;
+
+}
+
+.hex-content .icon {
+  visibility: hidden;
+  height: 0px;
 }
 
 .hero_section .hexagon-item:nth-last-child(1),
