@@ -35,9 +35,8 @@
                 <h2>ALEKSANDAR RUSESKI<br> <strong>GAME DEV </strong> / <strong style="color:#9b31ff;">
                     CREATOR</strong></h2>
                 <p>
-                  A long time game dev enthusiast and nerd (first game I ever made was in Power Point 🤓) <br />
-                  I'm a generalist Unity programmer with background in web dev and vfx. <br />
-                  Love creating my own stuff, as well helping other people see their own visions come to life. </p>
+                  Generalist Unity programmer with background in web dev and vfx. <br />
+                  I love creating my own stuff, as well helping other people see their own visions come to life. </p>
                 <div class="underline"></div>
                 <!-- <ul class="social_links">
                   <li class="twitter animated bounceIn wow delay-02s animated"
@@ -53,8 +52,9 @@
                     style="visibility: visible; animation-name: bounceIn;"><a href="javascript:void(0)"><i
                         class="fa fa-google-plus"></i></a></li>
                 </ul> -->
-                <div class="hexagon-menu">
-                  <div class="hexagon-item">
+
+                <ul class="hexagon-menu" id="mainNav">
+                  <li class="hexagon-item current">
                     <div class="hex-item">
                       <div></div>
                       <div></div>
@@ -65,7 +65,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="welcome.html" class="hex-content">
+                    <a href="#aboutUs" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="tf-profile-male"></i>
@@ -79,8 +79,8 @@
                           fill="#1e2530"></path>
                       </svg>
                     </a>
-                  </div>
-                  <div class="hexagon-item">
+                  </li>
+                  <li class="hexagon-item">
                     <div class="hex-item">
                       <div></div>
                       <div></div>
@@ -91,7 +91,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="about.html" class="hex-content">
+                    <a href="#Portfolio" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="tf-briefcase2"></i>
@@ -105,8 +105,8 @@
                           fill="#1e2530"></path>
                       </svg>
                     </a>
-                  </div>
-                  <div class="hexagon-item">
+                  </li>
+                  <li class="hexagon-item">
                     <div class="hex-item">
                       <div></div>
                       <div></div>
@@ -117,7 +117,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="services.html" class="hex-content">
+                    <a href="#clients" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="tf-tools"></i>
@@ -131,7 +131,7 @@
                           fill="#1e2530"></path>
                       </svg>
                     </a>
-                  </div>
+                  </li>
                   <!-- <div class="hexagon-item">
                     <div class="hex-item">
                       <div></div>
@@ -158,7 +158,7 @@
                       </svg>
                     </a>
                   </div> -->
-                  <div class="hexagon-item">
+                  <li class="hexagon-item">
                     <div class="hex-item">
                       <div></div>
                       <div></div>
@@ -169,7 +169,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="works.html" class="hex-content">
+                    <a href="#service" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="tf-tools-2"></i>
@@ -183,8 +183,8 @@
                           fill="#1e2530"></path>
                       </svg>
                     </a>
-                  </div>
-                  <div class="hexagon-item">
+                  </li>
+                  <li class="hexagon-item">
                     <div class="hex-item">
                       <div></div>
                       <div></div>
@@ -195,7 +195,7 @@
                       <div></div>
                       <div></div>
                     </div>
-                    <a href="testimonials.html" class="hex-content">
+                    <a href="#contact" class="hex-content">
                       <span class="hex-content-inner">
                         <span class="icon">
                           <i class="tf-envelope2"></i>
@@ -209,8 +209,8 @@
                           fill="#1e2530"></path>
                       </svg>
                     </a>
-                  </div>
-                  <div class="hexagon-item" style="visibility: hidden;">
+                  </li>
+                  <li class="hexagon-item" style="visibility: hidden;">
                     <div class="hex-item">
                       <div></div>
                       <div></div>
@@ -235,8 +235,8 @@
                           fill="#1e2530"></path>
                       </svg>
                     </a>
-                  </div>
-                </div> <!-- /.hexagon-menu -->
+                  </li>
+                </ul> <!-- /.hexagon-menu -->
               </div>
             </div>
           </div>
@@ -258,13 +258,12 @@
                 class="icon-bar"></span> <span class="icon-bar"></span> </button>
           </div>
           <div id="main-nav" class="collapse navbar-collapse navStyle">
-            <ul class="nav navbar-nav" id="mainNav">
+            <ul class="nav navbar-nav" id="mainNav_2">
               <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
               <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
               <li><a href="#service" class="scroll-link">Skills</a></li>
               <li><a href="#Portfolio" class="scroll-link">Projects</a></li>
               <li><a href="#clients" class="scroll-link">Experience</a></li>
-              <li><a href="#team" class="scroll-link">Testimonial</a></li>
               <li><a href="#contact" class="scroll-link">Contact</a></li>
             </ul>
           </div>
@@ -278,30 +277,32 @@
     <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
       <div class="container">
         <h2>Who Am I</h2>
-        <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+        <h6>A long time game dev enthusiast and nerd (first game I ever made was in Power Point 🤓) </h6>
         <div class="inner_section">
           <div class="row">
             <div class="col-lg-12 about-us">
               <div class="row">
-                <div class="col-md-6"> <img class="img-responsive" src="img/about1.png" align=""> </div>
+                <div class="col-md-6"> <img class="img-responsive" src="img/xipn0v.jpg" align="">
+                </div>
                 <!-- /.col-md-6 -->
                 <div class="col-md-6">
-                  <h3>I Design Awesome Web Apps</h3>
+                  <h3>I make games. And stuff.</h3>
+                  <!--                   <p>
+                    A long time game dev enthusiast and nerd (first game I ever made was in Power Point 🤓) <br />
+                  </p> -->
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum
-                    gravida tortor. Lorem ipsum dolor sit amet, tortor orci ipsum gravida tortor. Lorem ipsum dolor sit
-                    amet, conseconsectetur.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum
-                    gravida tortor.
+                    I started off as a prep artist in a VFX studio (used Nuke, Silluete, Mocha and other industry
+                    standard software), switched to fullstack programming (JS, PHP, tons of frameworks), and then moved
+                    on to game development (cause
+                    what's more fun than game dev?). <br />
                   </p>
                   <ul class="about-us-list">
-                    <li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li>
-                    <li class="points">Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
-                    <li class="points">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci gravida </li>
-                    <li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
-                    <li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
+                    <li class="points">Bachelor's Degree in Multimedia, Animation, and Visualizations</li>
+                    <li class="points">Versatile in C#, JavaScript, PhP, Laravel, has no problem adopting new technology
+                    </li>
+                    <li class="points">Experience with the workflow and demands for both hypercasual and casual games
+                    </li>
+                    <li class="points">Experience with Hollywood-level standards for prep art</li>
                   </ul><!-- /.about-us-list -->
 
                 </div><!-- /.col-md-6 -->
@@ -585,7 +586,8 @@
   </section>
   <!--client_logos-->
 
-  <section class="page_section team" id="team"><!--main-section team-start-->
+  <!--main-section team-start-->
+  <!--   <section class="page_section team" id="team">
     <div class="container">
       <h2>Testimonial</h2>
       <h6>Lorem ipsum dolor sit amet, consectetur adipiscing.</h6>
@@ -625,11 +627,13 @@
 
           </div>
         </div>
-        <!-- row -->
+        
       </div>
     </div>
   </section>
+   -->
   <!--/Team-->
+
   <!--Footer-->
   <footer class="footer_wrapper" id="contact">
     <div class="container">
@@ -706,10 +710,22 @@
         <span>Copyright © 2019. The best <a href="https://webthemez.com/tag/free" target="_blank">Free Template</a> by
           WebThemez.com</span>
         <span>Image by <a
-            href="https://www.freepik.com/free-vector/online-games-concept_7885167.htm#query=game%20developer&position=8&from_view=keyword&track=ais">Freepik</a></span>
-        <span>Image by <a
             href="https://www.freepik.com/free-vector/gradient-galaxy-background_14658088.htm#from_view=detail_author">Freepik</a></span>
       </div>
+      <!-- 
+        I also used some elements from this theme.
+      THEME: Phantom - Bootstrap Portfolio Template
+      VERSION: 1.0.0
+      AUTHOR: Themefisher
+
+      HOMEPAGE: https://themefisher.com/products/phantom-best-bootstrap-portfolio-template/
+      DEMO: https://demo.themefisher.com/phantom/
+      GITHUB: https://github.com/themefisher/Phantom-Bootstrap-Portfolio-Template
+
+      WEBSITE: https://themefisher.com
+      TWITTER: https://twitter.com/themefisher
+      FACEBOOK: https://www.facebook.com/themefisher
+      -->
     </div>
   </footer>
 

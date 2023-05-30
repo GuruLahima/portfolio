@@ -54,6 +54,31 @@ $(document).ready(function() {
             }
         }
     });
+    $('#mainNav_2').onePageNav({
+        currentClass: 'active',
+        changeHash: false,
+        scrollSpeed: 950,
+        scrollThreshold: 0.2,
+        filter: '',
+        easing: 'swing',
+        begin: function() {
+        },
+        end: function() {
+            if (!$('#main-nav ul li:first-child').hasClass('active')) {
+                $('.header').addClass('addBg');
+            } else {
+                $('.header').removeClass('addBg');
+            }
+
+        },
+        scrollChange: function($currentListItem) {
+            if (!$('#main-nav ul li:first-child').hasClass('active')) {
+                $('.header').addClass('addBg');
+            } else {
+                $('.header').removeClass('addBg');
+            }
+        }
+    });
 
     var container = $('#portfolio_wrapper');
 
