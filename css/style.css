@@ -208,6 +208,7 @@ body {
   /* color: #888888; */
   color: #ddd;
   margin: 0;
+
 }
 
 h2 {
@@ -252,7 +253,7 @@ p {
   /* background: #F9F9F9; */
   background: #17171e;
   padding: 15px 0px;
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid #1FF5FF;
 }
 
 .header_box {
@@ -292,7 +293,8 @@ p {
 
 .navbar-inverse .navbar-nav>li>a {
   /* color: #777777; */
-  color: #1FF5FF; /* first theme color */
+  color: #1FF5FF;
+  /* first theme color */
 }
 
 .navStyle {
@@ -356,7 +358,8 @@ p {
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
   /* color: #FEB11E; */
-  color: #9b31ff; /* second theme color */
+  color: #9b31ff;
+  /* second theme color */
   background-color: transparent;
 }
 
@@ -406,7 +409,7 @@ p {
 
 .top_cont_outer {
   position: relative;
-  height: 1020px;
+  height: 100vh;
   background: url('../img/5509862.jpg') no-repeat;
   background-size: cover;
 }
@@ -526,7 +529,8 @@ a.read_more:hover {
 #service {
   padding: 60px 0px;
   /* background: #CA8400; */
-  background: #17171e; /* third theme color */
+  background: #17171e;
+  /* third theme color */
 }
 
 #service h2 {
@@ -2155,7 +2159,7 @@ img.img.img-circle.lt-box {
   /* also center it in the parent element */
   margin: 0 auto;
   /* lower it a bit */
-  margin-top: 50px;
+  margin-top: 120px;
   /* wasn't quite centered with margins so this does it */
   padding-left: 20px;
 
@@ -2327,9 +2331,9 @@ img.img.img-circle.lt-box {
   color: #fff;
 }
 
-/* html {
-  scroll-behavior: smooth;
-} */
+.top_cont_outer {
+  cursor: url('../img/cursor.png'), help;
+}
 
 section {
   /* background color for dark theme */
