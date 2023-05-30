@@ -200,17 +200,20 @@ figure.effect-oscar:hover img {
 /* Styles
 ---------------------------------*/
 body {
+  /* background: #FFFFFF; */
   background: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: normal;
-  color: #888888;
+  /* color: #888888; */
+  color: #ddd;
   margin: 0;
 }
 
 h2 {
   font-size: 38px;
-  color: #222222;
+  /* color: #222222; */
+  color: #e0e0e0;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   margin: 0px 0 25px 0;
@@ -221,14 +224,16 @@ h2 {
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  color: #222222;
+  /* color: #222222; */
+  color: #fbfbfb;
   font-size: 18px;
   margin: 0 0 5px 0;
 }
 
 h6 {
   font-size: 16px;
-  color: #888888;
+  /* color: #888888; */
+  color: #ddd;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   text-align: center;
@@ -244,7 +249,8 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
-  background: #F9F9F9;
+  /* background: #F9F9F9; */
+  background: #17171e;
   padding: 15px 0px;
   border-bottom: 1px solid #E8E8E8;
 }
@@ -285,7 +291,8 @@ p {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  color: #777777;
+  /* color: #777777; */
+  color: #1FF5FF; /* first theme color */
 }
 
 .navStyle {
@@ -340,14 +347,16 @@ p {
 
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
-  color: #FEB11E;
+  /* color: #FEB11E; */
+  color: #9b31ff;
   background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
-  color: #FEB11E;
+  /* color: #FEB11E; */
+  color: #9b31ff; /* second theme color */
   background-color: transparent;
 }
 
@@ -516,7 +525,8 @@ a.read_more:hover {
 
 #service {
   padding: 60px 0px;
-  background: #CA8400;
+  /* background: #CA8400; */
+  background: #3e3553;
 }
 
 #service h2 {
@@ -1428,16 +1438,20 @@ img {
   text-transform: uppercase;
   transition: all 0.3s ease-in-out 0s;
   background: transparent;
-  border: #FEB11E solid 1px;
-  color: #7C7C7C;
+  /* border: #FEB11E solid 1px; */
+  border: #1FF5FF solid 1px;
+  /* color: #7C7C7C; */
+  color: #B7B7B7;
 }
 
 #filters ul li a:hover h5,
 #filters ul li a.active h5 {
-  background: #FEB11E;
+  /* background: #FEB11E; */
+  background: #9b31ff;
   color: #FFFFFF;
   text-decoration: none;
-  border: #FEB11E solid 1px;
+  /* border: #FEB11E solid 1px; */
+  border: #9b31ff solid 1px;
 }
 
 .section-title h2 {
@@ -2316,3 +2330,8 @@ img.img.img-circle.lt-box {
 /* html {
   scroll-behavior: smooth;
 } */
+
+section {
+  /* background color for dark theme */
+  background-color: #252537;
+}
