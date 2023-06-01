@@ -269,31 +269,63 @@ h1 {
     opacity: 1;
   }
 
-  56% {
+  66% {
     opacity: 1;
   }
 
-  57% {
+  67% {
     opacity: 0;
   }
 
-  58% {
+  68% {
     opacity: 1;
   }
 
-  58.5% {
+  68.5% {
     opacity: 0;
   }
 
-  59% {
+  69% {
     opacity: 1;
   }
 
-  59.5% {
+  69.5% {
     opacity: 0;
   }
 
-  60% {
+  70% {
+    opacity: 1;
+  }
+
+  73.5% {
+    opacity: 1;
+  }
+
+  74% {
+    opacity: 0;
+  }
+
+  74.5% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  75.5% {
+    opacity: 0;
+  }
+
+  76% {
+    opacity: 1;
+  }
+
+  76.5% {
+    opacity: 0;
+  }
+
+  77.5% {
     opacity: 1;
   }
 
@@ -1187,7 +1219,7 @@ img {
 }
 
 .contact_section {
-  margin: 0 0 60px 0;
+  margin: 0 0 20px 0;
 }
 
 .contact_section h2 {
@@ -1539,7 +1571,8 @@ img {
 }
 
 .section-title h2 {
-  color: #222222;
+  /* color: #222222; */
+  color: #ddd;
   font-family: 'Raleway', sans-serif;
   font-size: 34px;
   letter-spacing: -1px;
@@ -2429,9 +2462,105 @@ body:active {
   }
 }
 
-
+#Portfolio,
+#clients {
+  background-color: #252537;
+  /* fourth theme color */
+}
 
 section {
   /* background color for dark theme */
-  background-color: #252537;
+  /* fourth theme color */
+  background-color: #17171e;
+  border-bottom: 1px solid #1FF5FF;
+
+}
+
+.contact-social {
+  list-style: outside none none;
+  margin: auto;
+  width: 165px;
+}
+
+.contact-social li {
+  display: inline-block;
+  position: relative;
+  width: 43px;
+}
+
+.contact-social li a {
+  color: #17171e;
+  display: block;
+  font-size: 20px;
+  height: 50px;
+  left: 50%;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 43px;
+  transform: translate(-50%, -50%);
+}
+
+.contact-social li:hover span {
+  background-color: #9b31ff;
+}
+
+.contact-social li:hover span::before {
+  border-bottom-color: #9b31ff;
+}
+
+.contact-social li:hover span::after {
+  border-top-color: #9b31ff;
+}
+
+.contact-social-hex {
+  display: block;
+  position: relative;
+  width: 43px;
+  height: 24.83px;
+  background-color: #1FF5FF;
+  margin: 12.41px 0;
+  transition: all 0.3s ease 0s;
+}
+
+.contact-social-hex::before,
+.contact-social-hex::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 21.5px solid transparent;
+  border-right: 21.5px solid transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.contact-social-hex::before {
+  bottom: 100%;
+  border-bottom: 12.41px solid #1FF5FF;
+}
+
+.contact-social-hex::after {
+  top: 100%;
+  width: 0;
+  border-top: 12.41px solid #1FF5FF;
+}
+
+.contact-social-hex:hover::after {
+  border-bottom-color: #1FF5FF;
+}
+
+.contact-social-hex:hover::before {
+  border-top-color: #1FF5FF;
+}
+
+#contact p a:hover {
+  color: blueviolet;
+}
+
+#contact p a {
+  color: #1FF5FF;
+}
+
+.client_logos img {
+  filter: grayscale(100%) contrast(200%) brightness(200%);
 }
