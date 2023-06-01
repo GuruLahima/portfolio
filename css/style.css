@@ -222,6 +222,86 @@ h2 {
   text-transform: capitalize;
 }
 
+h1 {
+  font-size: 44px;
+  /* color: #222222; */
+  color: #e0e0e0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  margin: 0px 0 25px 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* make it neon */
+#name_surname {
+
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+
+  animation-name: flickering;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+/* flickering animation */
+@keyframes flickering {
+  0% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  40.5% {
+    opacity: 0;
+  }
+
+  41% {
+    opacity: 1;
+  }
+
+  41.5% {
+    opacity: 0;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  56% {
+    opacity: 1;
+  }
+
+  57% {
+    opacity: 0;
+  }
+
+  58% {
+    opacity: 1;
+  }
+
+  58.5% {
+    opacity: 0;
+  }
+
+  59% {
+    opacity: 1;
+  }
+
+  59.5% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -2159,7 +2239,7 @@ img.img.img-circle.lt-box {
   /* also center it in the parent element */
   margin: 0 auto;
   /* lower it a bit */
-  margin-top: 120px;
+  margin-top: 100px;
   /* wasn't quite centered with margins so this does it */
   padding-left: 20px;
 
@@ -2331,9 +2411,25 @@ img.img.img-circle.lt-box {
   color: #fff;
 }
 
-.top_cont_outer {
-  cursor: url('../img/cursor.png'), help;
+body {
+  cursor: url('../img/cursor.png'), auto;
 }
+
+body:active {
+  cursor: url('../img/cursor_clicked.png'), auto;
+  animation-name: dinojump;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+/* flickering animation */
+@keyframes dinojump {
+  0% {
+    cursor: url('../img/cursor_clicked.png') 0 32, auto;
+  }
+}
+
+
 
 section {
   /* background color for dark theme */
