@@ -1633,11 +1633,20 @@ img {
   overflow: hidden;
   display: block;
   position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .portfolio-item .portfolio_img img {
   width: 100%;
   height: auto;
+  opacity: 50%;
+}
+
+.portfolio-item:hover .portfolio_img img {
+  opacity: 100%;
 }
 
 .portfolio-item:hover .item_overlay {
