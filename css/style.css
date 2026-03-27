@@ -195,7 +195,6 @@ figure.effect-oscar:hover p {
   -webkit-transform: scale(1);
   transform: scale(1);
   color: #fff;
-  +++++++
 }
 
 figure.effect-oscar:hover figcaption {
@@ -758,7 +757,7 @@ a.read_more:hover {
 }
 
 .service-list-col1 i {
-  display: ;
+  display: block;
   color: #888;
   font-size: 19px;
   font-style: normal;
@@ -2176,7 +2175,6 @@ div.mc-image {
     padding: 40px 0;
   }
 
-  ,
   #clients {
     padding: 40px 0;
   }
